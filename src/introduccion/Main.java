@@ -25,6 +25,7 @@ public class Main {
         System.out.println("14) Paso por referencia");
         System.out.println("15) Excepcion basica");
         System.out.println("16) Excepcion NumberFormat");
+        System.out.println("17) Ejemplos de Encapsulacion");
         System.out.println("0) Salir");
 
         int numero0 = sc.nextInt();
@@ -92,6 +93,10 @@ public class Main {
 
             case 16:
                 EjemploManejoDeExcepciones.ejemploNumberFormat();
+                break;
+                
+            case 17:
+                Encapsulacion.ejecutar(); // ejecuto los ejemplos de encapsulacion
                 break;
 
             case 0:
