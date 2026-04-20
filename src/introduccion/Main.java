@@ -27,6 +27,8 @@ public class Main {
         System.out.println("16) Excepcion NumberFormat");
         System.out.println("17) Ejemplos de Encapsulacion");
         System.out.println("18) Ejemplo Aceess Spesifiers (Especificadores de acceso)");
+        System.out.println("19) Modificador de acceso protegido");
+        System.out.println("20) Ejemplo de Herencia");
         System.out.println("0) Salir");
 
         int numero0 = sc.nextInt();
@@ -87,7 +89,7 @@ public class Main {
             case 14:
                 EjemploPasoPorValorporReferencia.ejecutar();
                 break;
-                
+
             case 15:
                 EjemploManejoDeExcepciones.ejemploBasico();
                 break;
@@ -95,19 +97,22 @@ public class Main {
             case 16:
                 EjemploManejoDeExcepciones.ejemploNumberFormat();
                 break;
-                
+
             case 17:
-                Encapsulacion.ejecutar(); 
+                Encapsulacion.ejecutar();
                 break;
-                
-            case 18: 
-            	EjemploAccesSpesifiers.AccesSpesifiers();
-            	break;
-            	
+
+            case 18:
+                EjemploAccesSpesifiers.AccesSpesifiers();
+                break;
+
             case 19:
-            	EjemploAccesSpesifiers.modificadorAccesoProtegido();
-            	
-            	break;
+                EjemploAccesSpesifiers.modificadorAccesoProtegido();
+                break;
+
+            case 20:
+                EjemploHerencia.ejecutar();
+                break;
 
             case 0:
                 System.out.println("Salida del programa. Adios.");
