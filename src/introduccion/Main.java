@@ -29,6 +29,7 @@ public class Main {
         System.out.println("18) Ejemplo Aceess Spesifiers (Especificadores de acceso)");
         System.out.println("19) Modificador de acceso protegido");
         System.out.println("20) Ejemplo de Herencia");
+        System.out.println("21) Method Overloading and Overriding");
         System.out.println("0) Salir");
 
         int numero0 = sc.nextInt();
@@ -113,7 +114,11 @@ public class Main {
             case 20:
                 EjemploHerencia.ejecutar();
                 break;
+            case 21:
+                MethodOverloadingandOverriding.ejecutar();
+                break;
 
+                
             case 0:
                 System.out.println("Salida del programa. Adios.");
                 break;
