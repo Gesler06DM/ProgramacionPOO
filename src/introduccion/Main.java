@@ -30,6 +30,7 @@ public class Main {
         System.out.println("19) Modificador de acceso protegido");
         System.out.println("20) Ejemplo de Herencia");
         System.out.println("21) Method Overloading and Overriding");
+        System.out.println("22) Abstraction");
         System.out.println("0) Salir");
 
         int numero0 = sc.nextInt();
@@ -116,6 +117,9 @@ public class Main {
                 break;
             case 21:
                 MethodOverloadingandOverriding.ejecutar();
+                break;
+            case 22:
+                Abstraction.ejecutar();
                 break;
 
                 
